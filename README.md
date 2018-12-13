@@ -36,18 +36,5 @@
 * Maybe extend it to a VR project!
 * Extend beyond storytelling to aid classroom teaching, etc. 
 
-## Setting up Stroodle
-#### Getting the AWS/Azure API 
-1. Go to Amazon's Developer Console https://aws.amazon.com/comprehend/ and create a new project. 
-2. Open the project and search for the API in the library. 
-3. Enable the API for your project. 
-4. Generate your Subscription Key for it. 
-### Making an installation folder
-1. Clone the repository.
-2. Enter your subscription key under the `read_text.py` -
 
-```
-subscription_key = "Enter your key here"
-assert subscription_key
-search_url = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
 ```
